@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main (void)
 {
-char output[] ="Programming is like building a multilingual puzzle";
-printf("%s",output);
+puts("Programming is like building a multilingual puzzle");
 }
