@@ -2,5 +2,5 @@
 int main ()
 {
 char output[] ="Programming is like building a multilingual puzzle";
-puts("%s",output);
+printf("%s",output);
 }
