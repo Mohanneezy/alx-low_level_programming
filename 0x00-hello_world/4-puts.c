@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main ()
+int main (void)
 {
 char output[] ="Programming is like building a multilingual puzzle";
 printf("%s",output);
