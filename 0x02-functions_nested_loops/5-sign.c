@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _int print_sign - sign for sign
+ * print_sign - sign for sign
  * @n: n is an ascii character
  *
  * Return: 1 if greater than 0
