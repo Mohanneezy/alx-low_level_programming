@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _int print_sign - sign for lowercase
- * @c: c is an ascii character
+ * _int print_sign - sign for sign
+ * @n: n is an ascii character
  *
- * Return: 1 if lowercase
+ * Return: 1 if greater than 0
  */
 int print_sign(int n)
 {
