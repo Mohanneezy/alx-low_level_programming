@@ -2,7 +2,7 @@
 
 /**
  * _abs - checks for absolute
- * @c: c is an ascii character
+ * @n: n is an ascii character
  *
  * Return: 1 if lowercase
  */
