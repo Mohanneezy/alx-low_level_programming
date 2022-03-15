@@ -2,7 +2,7 @@
 
 /**
  * add - adds two numbers
- * @num1: num 1 is an ascii character
+ * @num1: num 1 and @num2: num 2 are an ascii character
  *
  * Return: 1 if lowercase
  */
