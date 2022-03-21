@@ -11,7 +11,7 @@ while (*s++)
 len++;
 for (i = len-1; i >= 0; i--)
 {
-printf("%c" ,s[i]);
+_putchar(s[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
