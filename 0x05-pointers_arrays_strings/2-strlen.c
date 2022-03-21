@@ -9,9 +9,8 @@ int _strlen(char *s)
 {
 char *str;
 int i = 0;
-for (s = str; *s != '\0'; s++) {
+for (s = *str; *s != '\0'; s++) {
     i++;
   }
   printf("%d", i);
 }
-
