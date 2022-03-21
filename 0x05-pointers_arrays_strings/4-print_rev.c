@@ -6,15 +6,22 @@
  */
 void print_rev(char *s)
 {
-	int len = 0, index;
-
-	while (s++)
-	{
-		len++;
-	}
-
-	for (index = len - 1; index >= 0; index--)
-		_putchar(s[index]);
-
-	_putchar('\n');
+char revstr[50];
+char *rvptr = revstr;
+int i=-1;
+while(*s)
+{
+s++;
+i++;
+}
+while(i>=0)
+{
+s--;
+*rvptr = *stptr;
+rvptr++;
+--i;
+}
+*rvptr='\0';
+_putchar(revstr);
+_putchar('\n');
 }
