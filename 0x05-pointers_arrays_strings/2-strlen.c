@@ -7,9 +7,9 @@
  */
 int _strlen(char *s)
 {
-int len;
+char *str;
 int i = 0;
-for (s = len; *s != '\0'; s++) {
+for (s = str; *s != '\0'; s++) {
     i++;
   }
   printf("%d", i);
