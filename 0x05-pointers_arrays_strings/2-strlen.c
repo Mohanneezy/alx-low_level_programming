@@ -5,10 +5,10 @@
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-int _strlen(char *s)
+int _strlen(char *str)
 {
 int i = 0;
-for (s = 0; *s != '\0'; s++) {
+for (*str = 0; *str != '\0'; *str++) {
     i++;
   }
   printf("%d", i);
