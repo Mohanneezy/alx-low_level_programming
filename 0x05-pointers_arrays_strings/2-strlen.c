@@ -13,4 +13,5 @@ for (s = *str; *s != '\0'; s++) {
     i++;
   }
   printf("%d", i);
+  return 0;
 }
