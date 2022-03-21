@@ -7,11 +7,11 @@
 void print_rev(char *s)
 {
 int len = 0, i;
-while (*str++)
+while (*s++)
 len++;
 for (i = len-1; i >= 0; i--)
 {
-printf("%c" ,str[i]);
+printf("%c" ,s[i]);
 }
 putchar('\n');
 return 0;
