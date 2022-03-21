@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen - Checks for uppercase characters.
- * @s: The character to be checked.
+ * @str: The character to be checked.
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
@@ -12,5 +12,5 @@ while (*str++)
 {
 i++;
 }
-return i;
+return (i);
 }
