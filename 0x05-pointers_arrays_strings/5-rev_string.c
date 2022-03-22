@@ -22,5 +22,5 @@ rvptr++;
 --i;
 }
 *rvptr = '\0';
-s = revstr;
+*s = revstr;
 }
