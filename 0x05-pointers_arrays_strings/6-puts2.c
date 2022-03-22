@@ -11,4 +11,5 @@ while (*str++)
 j++;
 for (i = 0; i <= j ;i=i+2)
 printf ("%c" ,str[i]);
+printf ("\n");
 }
