@@ -7,14 +7,7 @@ void randomPasswordGeneration(int N)
     
     int i = 0;
     char num[] = "0123456789";
-  
-    int randomizer = 0;
-
-    srand((unsigned int)(time(NULL)));
-  
-  
-
-    char letter[] = "abcdefghijklmnoqprstuvwyzx";
+  char letter[] = "abcdefghijklmnoqprstuvwyzx";
   
 
     char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
@@ -25,6 +18,13 @@ void randomPasswordGeneration(int N)
     
     char password[N];
   
+    int randomizer = 0;
+
+    srand((unsigned int)(time(NULL)));
+  
+  
+
+    
     
     randomizer = rand() % 4;
   
