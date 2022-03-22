@@ -17,11 +17,10 @@ i++;
 while(i>=0)
 {
 s--;
-*rvptr = *stptr;
+*rvptr = *s;
 rvptr++;
 --i;
 }
 *rvptr='\0';
 _putchar(revstr);
 _putchar('\n');
-}
