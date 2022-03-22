@@ -6,13 +6,12 @@ void randomPasswordGeneration(int N)
 {
     
     int i = 0;
+    char num[] = "0123456789";
   
     int randomizer = 0;
 
     srand((unsigned int)(time(NULL)));
   
- 
-    char num[] = "0123456789";
   
 
     char letter[] = "abcdefghijklmnoqprstuvwyzx";
