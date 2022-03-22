@@ -11,6 +11,6 @@ while (*str++)
 j++;
 for (i =0; i<j ;i++)
 {
-printf ("%s" ,str[i+2]);
+printf ("%c" ,str[i+2]);
 }
 }
