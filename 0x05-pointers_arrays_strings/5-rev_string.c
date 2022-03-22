@@ -6,22 +6,22 @@
  */
 void rev_string(char *s)
 {
-char revstr[50];
-char *rvptr = revstr;
-int i = -1;
-while (*s)
-{
-s++;
-i++;
-}
-while (i >= 0)
-{
-s--;
-*rvptr = *s;
-rvptr++;
---i;
-}
-*rvptr = '\0';
-s = revstr;
-return (s);
+int i, max, half;
+	char first, last;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	max = i - 1;
+	half = max / 2;
+	while (half >= 0)
+	{
+		first = s[max - half];
+		last = s[half];
+		s[half] = first;
+		s[max - half] = last;
+		half--;
+	}
 }
