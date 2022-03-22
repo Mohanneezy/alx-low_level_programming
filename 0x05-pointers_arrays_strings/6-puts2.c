@@ -4,7 +4,7 @@
  * puts2 - Prints a string in reverse.
  * @str: The string to be printed.
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 int i , j=0;
 while (*star++)
