@@ -9,9 +9,9 @@ void puts_half(char *str)
 int i , j = 0;
 while (*str++)
 j++;
-for (i = j-1/2; i <= j ;i++)
+for (i = j/2; i <= j ;i++)
 {
-printf ("%c" ,str[i]);
+_putchar(str[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
