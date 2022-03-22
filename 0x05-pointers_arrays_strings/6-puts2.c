@@ -9,8 +9,8 @@ void puts2(char *str)
 int i , j = 0;
 while (*str++)
 j++;
-for (i = 0; i != '\0' ;i++)
+for (i = 0; i <= j ;i=i+2)
 {
-printf ("%c" ,str[i+2]);
+printf ("%c" ,str[i]);
 }
 }
