@@ -4,7 +4,7 @@
 #include <math.h>
 void randomPasswordGeneration(int N)
 {
-    // Initialize counter
+    
     int i = 0;
   
     int randomizer = 0;
