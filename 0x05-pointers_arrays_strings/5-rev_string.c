@@ -22,5 +22,5 @@ rvptr++;
 --i;
 }
 *rvptr = '\0';
-printf("%s\n", revstr);
+/*printf("%s\n", revstr);*/
 }
