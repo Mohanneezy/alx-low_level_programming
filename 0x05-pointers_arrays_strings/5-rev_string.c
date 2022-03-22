@@ -6,7 +6,7 @@
  */
 void rev_string(char *s)
 {
-char revstr[500000];
+char revstr[50];
 char *rvptr = revstr;
 int i = -1;
 while (*s)
@@ -22,5 +22,5 @@ rvptr++;
 --i;
 }
 *rvptr = '\0';
-*s = revstr;
+s = revstr;
 }
