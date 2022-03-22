@@ -6,4 +6,11 @@
  */
 void puts2(char *str);
 {
+int i , j=0;
+while (*star++)
+j++;
+for (i =0; i<j ;i++)
+{
+printf ("%d" ,star[i+2]);
+}
 }
