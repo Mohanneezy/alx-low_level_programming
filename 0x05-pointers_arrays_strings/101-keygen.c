@@ -6,9 +6,10 @@
 int main()
 {
      int i;
+     char pass[12];
     srand((unsigned int)(time(NULL)));
    
-    char pass[12];
+    
     for(i = 0; i < 12; i++) {
     pass[i] = 33 + rand() % 94;
 }
