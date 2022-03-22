@@ -23,5 +23,4 @@ rvptr++;
 }
 *rvptr = '\0';
 s = revstr;
-printf("%s\n", s);
 }
