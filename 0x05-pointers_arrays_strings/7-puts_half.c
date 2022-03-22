@@ -13,9 +13,9 @@ int i, j, max;
 	{
 		i++;
 	}
-	max = i;
+	max = i-1;
 	j = max / 2;
-	while (j <= max)
+	while (j < max)
 	{
 		_putchar(str[j]);
 		j++;
