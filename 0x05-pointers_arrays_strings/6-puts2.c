@@ -11,5 +11,5 @@ while (*str++)
 j++;
 for (i = 0; i < j ;i=i+2)
 _putchar (str[i]);
-_putchar ("\n");
+_putchar ('\n');
 }
