@@ -22,5 +22,4 @@ rvptr++;
 --i;
 }
 *rvptr='\0';
-putchar(revstr);
-putchar('\n');
+printf(" %s\n",revstr);
