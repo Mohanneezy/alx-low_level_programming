@@ -16,7 +16,7 @@ void randomPasswordGeneration(int N)
     char symbols[] = "!@#$^&*?";
   
     
-    char password[];
+    char password[N];
   
     int randomizer = 0;
 
