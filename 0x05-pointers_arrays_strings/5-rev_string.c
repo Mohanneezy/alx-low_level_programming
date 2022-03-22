@@ -23,4 +23,5 @@ rvptr++;
 }
 *rvptr = '\0';
 s = revstr;
+return (s);
 }
