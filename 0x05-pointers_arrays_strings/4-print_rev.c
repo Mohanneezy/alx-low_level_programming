@@ -23,3 +23,4 @@ rvptr++;
 }
 *rvptr='\0';
 printf(" %s\n",revstr);
+}
