@@ -22,5 +22,5 @@ rvptr++;
 --i;
 }
 *rvptr='\0';
-_putchar(revstr);
-_putchar('\n');
+putchar(revstr);
+putchar('\n');
