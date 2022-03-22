@@ -5,8 +5,9 @@
 
 int main()
 {
+     int i;
     srand((unsigned int)(time(NULL)));
-    int i;
+   
     char pass[12];
     for(i = 0; i < 12; i++) {
     pass[i] = 33 + rand() % 94;
@@ -14,4 +15,5 @@ int main()
 pass[i] = '\0';
 printf("%s\n",pass);
     printf("\n\n");
+    return 0;
 }
