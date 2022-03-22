@@ -21,5 +21,4 @@ int i, j, max;
 		j++;
 	}
 	
-_putchar('\n');
 }
