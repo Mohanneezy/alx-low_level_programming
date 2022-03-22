@@ -8,19 +8,19 @@ void print_rev(char *s)
 {
 char revstr[500000];
 char *rvptr = revstr;
-int i=-1;
-while(*s)
+int i = -1;
+while( *s)
 {
 s++;
 i++;
 }
-while(i>=0)
+while( i >= 0)
 {
 s--;
 *rvptr = *s;
 rvptr++;
 --i;
 }
-*rvptr='\0';
-printf("%s\n",revstr);
+*rvptr = '\0';
+printf("%s\n", revstr);
 }
