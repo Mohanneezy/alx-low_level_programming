@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _pow_recursion* @s: The string to be printed.
- * @y: The string to be powered.
+ * _pow_recursion - Returns the value of x raised to the power of y.
+ * @x: The string to be powered.
  * @y: The string to poweree.
+ *
+ *  Return: The value of x raised to the power of y.
  */
 int _pow_recursion(int x, int y)
 {
