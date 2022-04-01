@@ -1,5 +1,3 @@
-
-@@ -0,0 +1,36 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
