@@ -12,12 +12,9 @@ int main(int argc, char *argv[])
 int i, x, y, product;
 if (argc != 3)
 printf("Error \n");
-for (i = 1; i < argc; i++)
-{
 x = atoi(argv[1]);
 y = atoi(argv[1 + 1]);
 product = x *y;
 printf("%d\n", product);
-}
 return (0);
 }
