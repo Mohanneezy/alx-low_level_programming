@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-int i, x, y, product;
+int x, y, product;
 if (argc != 3)
 printf("Error \n");
 x = atoi(argv[1]);
