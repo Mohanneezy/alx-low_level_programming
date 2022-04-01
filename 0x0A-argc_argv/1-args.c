@@ -8,7 +8,7 @@
  */
 int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-int i,sum = 0;
+int i, sum = 0;
 for (i = 1; i < argc; i++)
 {
 	sum++;
