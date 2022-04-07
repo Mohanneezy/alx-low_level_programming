@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - Creates an array of chars and
+ * malloc_checked - Creates an array of chars and
  *                initializes it with a specific char.
  * @b: The specific char to intialize the array with.
  *
