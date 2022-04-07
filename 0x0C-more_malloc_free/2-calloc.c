@@ -24,7 +24,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (mem == NULL)
 		return (NULL);
 
-	filler = mem;
+	fill = memory;
 
 	for (i = 0; i < (size * nmemb); i++)
 		fill[i] = '\0';
